@@ -11,7 +11,7 @@ export default (state = initialState, action) => {
     case DELETE_PRODUCT:
       return {
         ...state,
-        useProducts: state.userProducts.filter(
+        userProducts: state.userProducts.filter(
           product => product.id !== action.pid
         ),
         availableProducts: state.availableProducts.filter(
