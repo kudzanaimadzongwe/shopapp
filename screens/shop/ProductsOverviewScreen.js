@@ -147,7 +147,11 @@ ProductsOverviewScreen.navigationOptions = navData => {
 };
 
 const styles = StyleSheet.create({
-  centered: { flex: 1, justifyContent: "center", alignItems: "center" }
+  centered: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center"
+  }
 });
 
 export default ProductsOverviewScreen;
